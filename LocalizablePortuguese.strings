@@ -1,0 +1,564 @@
+/* 
+  LocalizablePortuguese.strings
+  Jayeentaxi
+
+  Created by Spextrum on 12/12/16.
+  Copyright © 2016 Jigs. All rights reserved.
+*/
+
+
+"APPLICATION NAME"="Jayeentaxi Customer";
+"Name" = "Nome";
+"SELECT_PHOTO"="Selecione uma foto";
+"TAKE_PHOTO"="Tire uma foto";
+"CANCEL"="Cancelar";
+"Currency" = " JOD";
+"OK"="OK";
+"CAM_NOT_AVAILABLE" = "Câmera não disponível";
+"PLEASE_FIRST_NAME"="Por favor, entre com o nome";
+"PLEASE_LAST_NAME"="Por favor, entre com o sobrenome";
+"PLEASE_EMAIL"="Por favor, entre com o endereço";
+"PLEASE_NUMBER"="Por favor, entre com o telefone";
+"PLEASE_PASSWORD"="Por favor, entre com uma senha";
+"PLEASE_PASSWORD_LENGTH"="A senha precisa ser maior que 6 dígitos";
+"PLEASE_TYPE_CONFIRM_PASSWORD_LENGTH"="Por favor, confirme a sua senha";
+"PASSWORD_MISMATCH"="As senhas digitadas não conferem";
+"PLEASE_VALID_EMAIL"="Por favor, entre com um e-mail válido";
+"REGISTER_SUCCESS"="Registrado com sucesso!";
+"REGISTER_FAIL"="O Registro falhou,p or favor, tente novamente";
+"LOGIN_SUCCESS"="Bem vinda ";
+"LOGIN_FAIL"="Falhou o login, tente novamente...";
+"THING_SUCCESS"="Adicionou suas coisas com sucesso.";
+"THING_FAIL"="Falha Por favor, tente novamente.";
+"NOT_VALID_LOCATION" = "Não é um local válido";
+"ALREADY_LOGIN"="Aguarde enquanto nós assinamos você ..";
+"PLEASE_WAIT"="Por favor aguarde";
+
+//////////// Loading Titles
+
+"CONTACTING_SERVICE_PROVIDER"="Estamos localizando o taxi mais próximo";
+"LOADING"="CARREGANDO......";
+"LOGIN"="acessando...";//"PLEASE WAIT, WHILE WE LOG YOU IN";
+
+"WAITING_FOR_ADMIN_CONFIRM"="SEU PROCESSO AINDA ESTÁ EM AVALIAÇÃO, ENTRAREMOS EM CONTATO EM BREVE.";
+"REQUESTING"="SOLICITANDO";
+"REVIEWING"="REVISANDO";
+"CANCLEING"="CANCELANDO";
+"EDITING"="Atualizando";
+"PLEASE_WAIT"="Por favor, aguarde";
+"GET_PROVIDER"="Acessando...";
+
+/////////////// Toast Title
+
+"SUCESS_REFERRAL" = "Código de referência aplicado";
+"FAILURE_REFERRAL" = "Código inválido";
+"RATING"= "Obrigado pelo seu feedback";
+"PASSWORD_SENT"="A senha foi enviada para o email registrado";
+"ERROR"="Oops ! Ocorreu um erro, tente novametne.";
+"SELECT_TYPE" = "Por favor, selecione um tipo";
+"REQUEST_CANCEL" = "A sua corrida foi cancelada com sucesso.";
+"NO_WALKER" = "Não encontramos táxis próximos";
+"PROFILE_EDIT_SUCESS" = "Seu perfil foi atualizado com sucesso";
+"NO_REFERRAL" = "Este usuário não possui um código de referência.";
+"SOS_CALL_POLICE" = "Você está certo que quer contatar a polícia ?";
+"SOS_CALL_AMBULANCE" = "Você está certo que quer chamar uma ambulância ?";
+"SOS_CALL_FIRESTATION" = "Você está certo que quer chamar os bombeiros ?";
+"Police" = " Polícia";
+"Ambulance" = "Ambulância";
+"Fire Station" = "Bombeiros";
+"CLICK_SOS" = "Você clicou no botão de SOS. Escolha quem você quer contactar.";
+"Back" = "Voltar";
+"Network Status"="Status da rede";
+"NO_INTERNET"="Desculpe, rede não acessível, tente mais tarde.";
+"NO_VEHICLE_AVAILABLE" = "Não temos veículos com o tipo selecionado";
+"Sorry!"="Desculpa!";
+
+///////////  RegisterVC & Profile
+
+"This field is not editable."="Este campo não é editável";
+"NOT_MATCH_RETYPE"="As senhas digitadas não conferem.";
+"Registering"="Registrando...";
+
+///// Title
+
+"TITLE_APP_NAME" = "Jayeentaxi Customer";
+"TITLE_SIGN_IN" = " ENTRAR";
+"TITLE_REGISTER" = " REGISTRAR";
+"TITLE_FORGET_PASSWORD" = " ESQUECEU A SENHA ?";
+"SEND PASSWORD" = " ENVIE SENHA";
+
+///// LoginVC
+
+"SIGN IN"=" ENTRAR";
+"BTN_SIGN_IN"="ENTRAR";
+"Email"=" O email";
+"Password"="Palavra-chave";
+"PH_EMAIL" = "Entrar EMAIL *";
+"PH_PASSWORD" = "Entrar PASSWORD*";
+"Forgot Password"="ESQUECEU A SENHA?";
+
+///// RegisterVC
+
+"Register"="  REGISTRAR";
+"PH_FIRST_NAME" = "ENTRE COM O NOME*";
+"PH_LAST_NAME" = "ENTRE COM O SOBRENOME*";
+"PH_EMAIL" = "ENTRE COM O EMAIL *";
+"PH_PASSWORD" = "ENTRE COM A SENHA *";
+"PH_CONFIRM_PASSWORD" = "CONFIRME A NOVA SENHA*";
+"PH_PHONE_NUMBER" = "ENTRE COM O TELEFONE";
+"BTN_REGISTER" = "REGISTRAR";
+"SELECT_PHOTO"="Selecione uma foto";
+"TAKE_PHOTO"="Tire uma foto";
+"CANCEL" = "CANCELAR";
+"INFO_EMAIL"="Por favor, verifique o seu endereço de e-mail, ele não poderá ser alterado no futuro.";
+
+"FIRST NAME*"="NOME*";
+"LAST NAME*"="SOBRENOME*";
+"EMAIL*"="O EMAIL*";
+"PASSWORD*"="SENHA*";
+"NUMBER*"="NÚMERO*";
+"I agree to the terms and conditions"="Concordo com os termos e condições";
+"NEXT"="PRÓXIMO";
+"Done"="PRONTO";
+"Select Country"="Selecione o pais";
+
+///// TermVC
+
+"Terms & Conditions" = " Termos e condições";
+
+///// OTP
+
+" Jayeem Taxi" = " Jayeem Taxi";
+"SUBMIT" = "ENVIAR";
+"Enter OTP" = "Entre com o código";
+"Sitbacklrelax_text" = "Aguarde enquanto verificamos o seu número de telefone";
+"Please enter the OTP below" = "Por favor, digite o código de Segurança";
+"Resend OTP" = " Reenviar o código de Segurança";
+"Enter Search Text" = "Entre o texto para pesquisar";
+"REGISTER" = " REGISTRAR";
+
+///// ApplyReferralCodeVC
+
+"Referral Code"="  Código de referência";
+"Enter Referral Code"="Entre com o código de referência";
+"Referral_Msg"="Você pode adicionar código de referência recebido dos seus amigos e ganhe créditos. Se você não possui um ou não quer utilizá-lo no momento, apenas aperte o botão PULAR.";
+"SKIP"="PULAR";
+"ADD"="ADICIONAR";
+
+///// PaymentVC
+
+"ADD PAYMENT"="  ADICIONAR PAGAMENTO";
+"Add Payment" = "ADICIONAR PAGAMENTO";
+"Adding cards"="Adicionando cartões...";
+"CREDIT CARD NUMBER" = "NÚMERO DO CARTÂO DE CRÉDITO";
+
+///// SliderVC
+
+"Profile"="  Perfil";
+"History"="  Histórico";
+"Payment"="  Pagamento";
+"Schedule"="  Agendamento";
+"Promotions"="  Promoções";
+"Referral" = " Referências";
+"Logout"="  Sair";
+"Logout Msg"="Você está certo que deseja sair ?";
+"Yes"="SIM";
+"No"="NÃO";
+
+///// EastimateFareVC
+
+"Fare Calulator"="  Calculador de tarifa";
+"Destination Address"="Endereço do destino";
+"Home Address"="Endereço de casa";
+"Work Address"="Endereço do trabalho";
+
+///// ProfileVC
+
+"FIRST NAME"="Primeiro nome";
+"LAST NAME"="último nome";
+"EMAIL"="O EMAIL";
+"PHONE"="Telefone";
+"CURRENT PASSWORD"="SENHA ATUAL";
+"NEW PASSWORD"="NOVA SENHA";
+"CONFORM PASSWORD"="CONFIRME A NOVA SENHA";
+"UPDATE PROFILE"="ATUALIZAR PERFIL";
+"EDIT PROFILE"="EDITAR PERFIL";
+
+///// ReferralCodeVC
+
+"Referral Code"="  Código de referência";
+"Your Referral Code is"="Seu código de referência é ";
+"Your Referral Credit"="Seu crédito de referência";
+"Share With your friend"="Compartilhe com seus amigos";
+"My Referral code is"="Meu código de referência é";
+"Share" = "Compartilhe";
+
+///// HistoryVC
+
+"Invoice"="Fatura";
+"BASE PRICE"="PREÇO BASE";
+"DISTANCE COST"="CUSTO POR DISTÂNCIA";
+"TIME COST" = "CUSTO POR TEMPO";
+"PROMO BONUS" = "BÔNUS PROMOCIONAL";
+"REFERRAL BONUS" = "BÔNUS POR INDICAÇÂO";
+"per mile" = "por milha";
+"per mins" = "por mins";
+"Total Due" = "Total";
+"Close"="FECHAR";
+
+///// FeedBackVC
+
+"Feedback"="  Comentários";
+"CONFIRM"="CONFIRME";
+"COMMENT"="COMENTE";
+"Submit"="Enviar";
+"PLEASE_RATE"="Por favor classifique o motorista.";
+"Waiting_Cost"="CUSTO DE ESPERA";
+
+///// PickUpVC
+
+"PICK ME UP"="Agendar agora";
+"RIDE_NOW" = "VIAJAR AGORA";
+"RIDE_LATER" = "VIAJAR DEPOIS";
+"GET FARE ESTIMATE"="Obter estimativa de preço";
+"MIN FARE"="TARIFA MÍNIMA";
+"ETA"="ETA";
+"MAX SIZE"="TAMANHO MÁXIMO";
+"Select Your Payment Type"="Selecione o método de pagamento";
+"Request"="Solicite";
+"SELECT SERVICE YOU NEED"="SELECIONE TIPO DE CARRO";
+"SEARCH"="PESQUISE";
+"REQUESTING"="Contactando motiristas nas redondezas...";
+"RATE CARD"="AVALIE O CARTÃO";
+"Base Price :"="Preço base :";
+"Distance Cost :"="Distância (por km):";
+"Time Cost :"="Tempo (por min):";
+"Rate_card_note"="As tarifas do aeroporto podem variar. Podem aplicar-se taxas de tempo de entrega.";
+"Home Address" = " Endereço residencial";
+"Destination Address" = " Destination Address";
+"This_is_justET" = " Esta é apenas uma estimativa, os valores podem variar conforme o tráfego ou descontos.";
+"Persons" = " Pessoas";
+"Note" = "Obs.: O tempo de agenadmento não pode ser mais que 30 minutos da hora atual.";
+"Please choose Date" = "Por favor escolha uma data";
+"Please choose Time" = "Por favor, escolha uma hora";
+"Work Address" = "Endereço de trabalho";
+//**//
+"Time_Greater" = "O tempo deve ser superior a 30 minutos";
+//**//
+///// ProviderDetailsVC
+
+"Min"="min";
+"CALL"="LIGAR";
+"DRIVER ACCEPTED THE JOB"="Motorista Aceitou a sua Corrida";
+"DRIVER HAS ARRIVED AT YOUR PLACE"="O motorista chegou na sua localização";
+"YOUR TRIP HAS BEEN STARTED"="Sua viagem foi iniciada";
+"DRIVER HAS STARTED TOWARDS YOU"="O motorista está a caminho";
+"YOUR TRIP IS COMPLETED"="Sua viagem foi finalizada.";
+"DRIVER ACCEPTED THE JOB"="O motorista aceitou a viagem";
+"Promo Code"="Código promocional";
+"Enter Promo Code"="Entre com o código promocional";
+"APPLY"="ENVIAR";
+"Card"="Cartão";
+"Cash"="Dinheiro";
+"Please Promo"="Pro favor, entre com o código promocional";
+"CANCEL_REQUEST"="Você está certo que deseja cancelar a solicitação ?";
+
+//Settings
+
+"Settings"=" Configurações";
+"Select_language"="Reinicie o aplicativo para que as alterações entrem em vigor";
+"Alert"="Alerta";
+"Wallet"="Carteira";
+
+//Wallet
+
+//**//
+"Success" = "Sucesso";
+"Amount_Added" = "O valor foi adicionado com sucesso ao seu Wallet" ;
+"Please_Amount" = "Digite o valor";
+//**//
+
+"RIDE" = "PASSEIO";
+"Cancel_Ride" = "Cancelar passeio";
+
+
+//**//
+"Ride_Cancel" = "passeio Cancelar";
+"Wait" = "ESPERAR";
+"Pause" = "PAUSA";
+//**//
+
+"Picek_Date" = "Selecione a Data";
+"Pick_Time" = "Selecione Hora";
+"Add_Money" = "ADICIONAR DINHEIRO";
+
+"Select_Journey" = "Selecione os detalhes da sua viagem";
+"ADD_TIPS" = "ADICIONAR DICAS";
+"Enter_Tips" = "Insira o montante das sugestões";
+"Please_Pickup" = "Por favor informe a origem";
+"Please_Drop" = "Por favor informe o destino";
+"Schedule_Success" = "Sua corrida foi agendada com sucesso";
+"Destination" = "Endereço Destino";
+"Please_Comment" = "Por favor digite comentários antes de compartilhar";
+"No_Email" = "Este e-mail não está registrado.";
+
+"Today" = "Hoje";
+"Yesterday" = "Ontem";
+
+// old.....
+
+
+//"Name" = "Nome";
+//"SELECT_PHOTO"="Selecione uma foto";
+//"TAKE_PHOTO"="Tire uma foto";
+//"CANCEL"="Cancelar";
+//"Currency" = " JOD";
+//"OK"="OK";
+//"CAM_NOT_AVAILABLE" = "Câmera não disponível";
+//"PLEASE_FIRST_NAME"="Por favor, entre com o nome";
+//"PLEASE_LAST_NAME"="Por favor, entre com o sobrenome";
+//"PLEASE_EMAIL"="Por favor, entre com o endereço";
+//"PLEASE_NUMBER"="Por favor introduza o Número.";
+//"PLEASE_PASSWORD"="Por favor introduza a senha.";
+//"PLEASE_PASSWORD_LENGTH"="A senha tem que conter pelo menos 6 letras.";
+//"PLEASE_TYPE_CONFIRM_PASSWORD_LENGTH"="Kindly type Confirm Password.";
+//"PASSWORD_MISMATCH"="Password and Confirm Password does not match";
+//"PLEASE_VALID_EMAIL"="Por favor introduza um enderço de email válido.";
+//"REGISTER_SUCCESS"="Successfully registered!";
+//"REGISTER_FAIL"="Falha no registro por favor tente novamente.";
+//"LOGIN_SUCCESS"="Welcome ";
+//"LOGIN_FAIL"="Login failed, Please try again ..";
+//"THING_SUCCESS"="Successfully Added your things.";
+//"THING_FAIL"="Failed Please try again.";
+//"NOT_VALID_LOCATION" = "Not a Valid Location";
+//"ALREADY_LOGIN"="Please wait while we sign you in ..";
+//"PLEASE_WAIT"="Please wait...";
+//
+//
+////////////// Loading Titles
+//
+//"CONTACTING_SERVICE_PROVIDER"="Contacting nearby taxis..";
+//"LOADING"="Processando...";
+//"LOGIN"="logging in...";//"PLEASE WAIT, WHILE WE LOG YOU IN";
+//
+//"WAITING_FOR_ADMIN_CONFIRM"="YOUR APPROVAL IS STILL IN PROCESS, WE WILL CONTACT YOU SOON.";
+//"REQUESTING"="REQUESTING";
+//"REVIEWING"="REVIEWING";
+//"CANCLEING"="CANCELLING";
+//"EDITING"="Actualizando";
+//"PLEASE_WAIT"="Please wait";
+//"GET_PROVIDER"="Getting Provider";
+//
+///////////////// Toast Title
+//
+//"SUCESS_REFERRAL" = "Referral Code applied";
+//"FAILURE_REFERRAL" = "Invalid Referral Code";
+//"RATING"= "Obrigado pelo seu feedback";
+//"PASSWORD_SENT"="A sua senha será enviado para o seu email registrado";
+//"ERROR"="Oops ! Erro, Por favor tente novamente.";
+//"SELECT_TYPE" = "Por favor selecione o tipo.";
+//"REQUEST_CANCEL" = "Your request is canceled successfully.";
+//"NO_WALKER" = "Não fomos capazes de encontrar qualquer táxis nas proximidades";
+//"PROFILE_EDIT_SUCESS" = "Your profile has been updated successfully";
+//"NO_REFERRAL" = "This user does not have a referral code.";
+//"SOS_CALL_POLICE" = "Are you sure want to call 911 ?";
+//"SOS_CALL_AMBULANCE" = "Are you sure want to call 108 ?";
+//"SOS_CALL_FIRESTATION" = "Are you sure want to call 101 ?";
+//"Police" = " Police";
+//"Ambulance" = "Ambulance";
+//"Fire Station" = "Fire Station";
+//"CLICK_SOS" = "You Clicked SOS Button.Choose Whom you want to call for emargency";
+//"Back" = "Back";
+//"Network Status"="Network Status";
+//"NO_INTERNET"="Sorry, network is not available. Please try again later.";
+//"NO_VEHICLE_AVAILABLE" = "There is no vehicle available at this selected type";
+//"Sorry!"="Desculpa!";
+//
+/////////////  RegisterVC & Profile
+//"INFO_EMAIL"="Por favor verifique o seu endereço de email, voçênáo poderá alterar no futuronáo poderá alterar no futuro.";
+//"This field is not editable."="Este campo não e editávelEste campo não e editável.";
+//"NOT_MATCH_RETYPE"="Confirm password do not match with new password.";
+//"Registering"="Registrando...";
+//
+//
+/////// Title
+//"TITLE_APP_NAME" = "Jayeentaxi Customer";
+//"TITLE_SIGN_IN" = " SIGN IN";
+//"TITLE_REGISTER" = " REGISTER";
+//"TITLE_FORGET_PASSWORD" = " FORGET PASSWORD";
+//"SEND PASSWORD" = " SEND PASSWORD";
+//
+/////// LoginVC
+//"SIGN IN"=" Entrar";
+//"BTN_SIGN_IN"="SIGN IN";
+//"Email"=" Email";
+//"Password"="Palavra-chave";
+//"PH_EMAIL" = "ENTER EMAIL*";
+//"PH_PASSWORD" = "ENTER PASSWORD*";
+//"Forgot Password"="Esqueceu senha?";
+//"NO_INTERNET"="Desculpe, Rede indisponível. Por favor tente novamente.";
+//
+//
+/////// RegisterVC
+//"Register"="  Registrar";
+//"PH_FIRST_NAME" = "ENTER FIRST NAME*";
+//"PH_LAST_NAME" = "ENTER LAST NAME*";
+//"PH_EMAIL" = "ENTER EMAIL*";
+//"PH_PASSWORD" = "ENTER PASSWORD*";
+//"PH_CONFIRM_PASSWORD" = "ENTER CONFIRM PASSWORD*";
+//"PH_PHONE_NUMBER" = "ENTER PHONE NUMBER";
+//"BTN_REGISTER" = "REGISTER";
+//"SELECT_PHOTO" = "SELECT PHOTO";
+//"TAKE_PHOTO" = "TAKE PHOTO";
+//"CANCEL" = "CANCEL";
+//"INFO_EMAIL"="Please verify your e-mail address,you will not be able to modify it in future.";
+//
+//"FIRST NAME*"="Primeiro nome*";
+//"LAST NAME*"="último nome*";
+//"EMAIL*"="EMAIL*";
+//"PASSWORD*"="Senha*";
+//"NUMBER*"="Número*";
+//"I agree to the terms and conditions"="I agree to the terms and conditions";
+//"NEXT"="Próximo";
+//"Done"="Concluído";
+//"Select Country"="Select Country";
+//
+//
+/////// TermVC
+//"Terms & Conditions"="  Terms & Conditions";
+//
+/////// OTP
+//" Jayeem Taxi" = " Jayeem Taxi";
+//"SUBMIT" = "SUBMIT";
+//"Enter OTP" = "Enter OTP";
+//"Sitbacklrelax_text" = "Sit back & Relax! while we verify your mobile number";
+//"Please enter the OTP below" = "Please enter the OTP below";
+//"Resend OTP" = " Resend OTP";
+//"Enter Search Text" = "Enter Search Text";
+//"REGISTER" = " REGISTER";
+//
+/////// ApplyReferralCodeVC
+//
+//"Referral Code"="  Código de referrência";
+//"Enter Referral Code"="Introduza código de referrência";
+//"Referral_Msg"="You can add referral code provided by your friend here to get free credits. If you do not have one or don't want to insert they just click on Skip button below.";
+//"SKIP"="Saltar";
+//"ADD"="Adicionar";
+//
+/////// PaymentVC
+//"ADD PAYMENT"="  Adicionar Pagamento";
+//"Add Payment" = "Add Payment";
+//"Adding cards"="Adding cards...";
+//"CREDIT CARD NUMBER" = "CREDIT CARD NUMBER";
+//
+//
+/////// SliderVC
+//"Profile"="  Perfil";
+//"History"="  Historial";
+//"Payment"="  Pagamento";
+//"Schedule"="  Schedule";
+//"Promotions"="  Promoções";
+//"Referral" = " Referral";
+//"Logout"="  Sair";
+//"Logout Msg"="Certeza que quer sair?";
+//"Yes"="Yes";
+//"No"="No";
+//
+//
+/////// EastimateFareVC
+//
+//"Fare Calulator"="  Fare Calulator";
+//"Destination Address"="Destino Endereço";
+//"Home Address"="Home Address";
+//"Work Address"="Work Address";
+//
+/////// ProfileVC
+//"FIRST NAME"="Primeiro nome";
+//"LAST NAME"="último nome";
+//"EMAIL"="EMAIL";
+//"PHONE"="Telefone";
+//"CURRENT PASSWORD"="CURRENT PASSWORD";
+//"NEW PASSWORD"="NEW PASSWORD";
+//"CONFORM PASSWORD"="CONFORM PASSWORD";
+//"UPDATE PROFILE"="Actualzar o perfil";
+//"EDIT PROFILE"="Editar o perfil";
+//
+//
+/////// ReferralCodeVC
+//"Referral Code"="  Código de referencia";
+//"Your Referral Code is"="Your Referral Code is ";
+//"Your Referral Credit"="Seu crédito de referrência";
+//"Share With your friend"="Partilhar código de refferência";
+//"My Referral code is"="My Referral code is";
+//"Share" = "Share";
+//
+/////// HistoryVC
+//
+//"Invoice"="Factura";
+//"BASE PRICE"="Preço base";
+//"DISTANCE COST"="Custo por distância";
+//"TIME COST" = "Custo por tempo";
+//"PROMO BONUS" = "PROMO BONUS";
+//"REFERRAL BONUS" = "Bônus de referrência";
+//"per mile" = "per miles";
+//"per mins" = "per mins";
+//"Total Due" = "Total Due";
+//"Close"="Fechar";
+//
+/////// FeedBackVC
+//"Feedback"="  Feedback";
+//"CONFIRM"="Confirmar";
+//"COMMENT"="Comentários";
+//"Submit"="Submeter";
+//"PLEASE_RATE"="Por favor classifique o motorista.";
+//
+/////// PickUpVC
+//
+//
+//"PICK ME UP"="Reservar agora";
+//"RIDE_NOW" = "RIDE NOW";
+//"RIDE_LATER" = "RIDE LATER";
+//"GET FARE ESTIMATE"="Obter estimativa de preço";
+//"MIN FARE"="MIN FARE";
+//"ETA"="ETA";
+//"MAX SIZE"="MAX SIZE";
+//"Select Your Payment Type"="Escolha o método de pagamento";
+//"Request"="Pedir";
+//"SELECT SERVICE YOU NEED"="SELECT CAR TYPE";
+//"SEARCH"="Procurar";
+//"REQUESTING"="Contactando motiristas nas redondezas...";
+//"RATE CARD"="Cartão de classificação";
+//"Base Price :"="Preço base :";
+//"Distance Cost :"="Custo por distância(Per km) :";
+//"Time Cost :"="Custo por tempo(Per min) :";
+//"Rate_card_note"="Airport rates may differ.Peak time charges may apply.";
+//"Home Address" = " Home Address";
+//"Destination Address" = " Destination Address";
+//"This_is_justET" = " This is just an estimate. Actual fares may very slightly based on traffic or discounts.";
+//"Persons" = " Persons";
+//"Note" = "Note: Schedule Time Should be More than 30 minutes from your current time.";
+//"Please choose Date" = "Please choose Date";
+//"Please choose Time" = "Please choose Time";
+//"Work Address" = "Work Address";
+//
+//
+/////// ProviderDetailsVC
+//
+//"Min"="min";
+//"CALL"="CALL";
+//"DRIVER ACCEPTED THE JOB"="O motorista aceitou a viagem";
+//"DRIVER HAS ARRIVED AT YOUR PLACE"="O motorista chegou na sua localização";
+//"YOUR TRIP HAS BEEN STARTED"="A sua viagem iniciou";
+//"DRIVER HAS STARTED TOWARDS YOU"="O motorista está a caminho da sua localização";
+//"YOUR TRIP IS COMPLETED"="A sua viagem está completa";
+//"DRIVER ACCEPTED THE JOB"="O motorista aceitou a viagem";
+//"Promo Code"="código promocional";
+//"Enter Promo Code"="Introduza código promocional";
+//"APPLY"="Efectivar";
+//"Card"="Cartão";
+//"Cash"="Dinheiro";
+//"Please Promo"="Introduza código promocional.";
+//"CANCEL_REQUEST"="Are you sure, you wan't to cancel request ?";
+//
+//"Select_language"="Reinicie o aplicativo para que as alterações entrem em vigor";
+//"Alert"="Alerta";

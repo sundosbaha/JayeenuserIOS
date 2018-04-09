@@ -1,0 +1,328 @@
+/*
+ Localizable.strings
+ UberNewUser
+
+ Created by Elluminati - macbook on 27/09/14.
+ Copyright (c) 2014 Jigs. All rights reserved.
+ */
+
+// Persian
+
+
+"APPLICATION NAME"="Jayeentaxi Customer";
+"Name" = "Name";
+"SELECT_PHOTO"="انتخاب تصویر";
+"TAKE_PHOTO"="تصویر گرفتن";
+"CANCEL"="انصراف";
+"Currency" = " JOD";
+"OK"="OK";
+"CAM_NOT_AVAILABLE" = "دوربین در دسترس نیست";
+"PLEASE_FIRST_NAME"="نام خود را وارد کنید.";
+"PLEASE_LAST_NAME"="نام خانوادگی خود را وارد کنید.";
+"PLEASE_EMAIL"="ایمیل خود را وارد کنید.";
+"PLEASE_NUMBER"="شماره تماس خود را وارد کنید.";
+"PLEASE_PASSWORD"="رمز خود را وارد کنید.";
+"PLEASE_PASSWORD_LENGTH"="رمز باید حداقل 6 کارکتر باشد.";
+"PLEASE_TYPE_CONFIRM_PASSWORD_LENGTH"="رمز خود را تائید کنید.";
+"PASSWORD_MISMATCH"="رمز و تائید رمز یکسان نیست";
+"PLEASE_VALID_EMAIL"="ایمیل صحیح وارد کنید.";
+"REGISTER_SUCCESS"="با موفقیت ثبت نام شدید";
+"REGISTER_FAIL"="ثبت نام نشدید . دوباره سعی کنید.";
+"LOGIN_SUCCESS"="خوش آمدید ";
+"LOGIN_FAIL"="وارد نشدید . دوباره امتحان کنید";
+"THING_SUCCESS"="با موفقیت افزوده شد";
+"THING_FAIL"="نشد . دوباره امتحان کنید.";
+"NOT_VALID_LOCATION" = "مکان صحیح نیست";
+"ALREADY_LOGIN"="انتظار برای ورود";
+"PLEASE_WAIT"="لطفا صبر کنید";
+
+//////////// Loading Titles
+
+"CONTACTING_SERVICE_PROVIDER"="اتصال به نزدیکترین کشنده";
+"LOADING"="در حال بارگزاری";
+"LOGIN"="در حال ورود";//"PLEASE WAIT, WHILE WE LOG YOU IN";
+
+"WAITING_FOR_ADMIN_CONFIRM"="عجله نکنید پروسه کد تایید مقداری زمان می برد";
+"REQUESTING"="در حال درخواست حمل";
+"REVIEWING"="در حال مشاهده";
+"CANCLEING"="در حال انصراف";
+"EDITING"="در حال بروز رسانی";
+"PLEASE_WAIT"="لطفا صبر کنید";
+"GET_PROVIDER"="در حال دریافت سرویس دهنده";
+
+/////////////// Toast Title
+
+"SUCESS_REFERRAL" = "کد معرف تائید شد";
+"FAILURE_REFERRAL" = "کد معرف نادرست است";
+"RATING"= "با تشکر از بازخورد";
+"PASSWORD_SENT"="رمز برای ایمیلتان ارسال خواهد شد";
+"ERROR"="خطا بوجود امده است ! دوباره امتحان کنید";
+"SELECT_TYPE" = "لطفا نوع را انتخاب کنید";
+"REQUEST_CANCEL" = "درخواست حمل شما با موفقیت کنسل شد";
+"NO_WALKER" = "ما نمی توانیم کشنده در نزدیکی شما پیدا کنیم";
+"PROFILE_EDIT_SUCESS" = "پروفایل شما با موفقیت بروز شد";
+"NO_REFERRAL" = "این کاربر کد معرف ندارد";
+"SOS_CALL_POLICE" = "آیا می خواهید با پلیس تماس بگیرید ؟";
+"SOS_CALL_AMBULANCE" = "آیا می خواهید با اورژانس تماس بگیرید ؟";
+"SOS_CALL_FIRESTATION" = "آیا می خواهید با آتش نشانی تماس بگیرید";
+"Police" = " پلیس";
+"Ambulance" = "آمبولانس";
+"Fire Station" = "ایستگاه آتش نشانی";
+"CLICK_SOS" = "شما دکمه تماس ضروری را کلیک کرده اید. انتخاب کنید که چه کسی می خواهید برای تماس اضطراری تماس بگیرید";
+"Back" = "بازگشت";
+"Network Status"="وضعیت شبکه";
+"NO_INTERNET"="با عرض پوزش، شبکه در دسترس نیست لطفا بعدا دوباره امتحان کنید.";
+"NO_VEHICLE_AVAILABLE" = "در این فرآیند هیچ وسیله نقلیه وجود ندارد";
+"Sorry!"="متاسف!";
+
+///////////  RegisterVC & Profile
+
+"This field is not editable."="این فیلد قابل ویرایش نیست.";
+"NOT_MATCH_RETYPE"="تأیید کلمه عبور با گذرواژه جدید مطابقت ندارد..";
+"Registering"="در حال ثبت نام";
+
+///// Title
+
+"TITLE_APP_NAME" = "Jayeentaxi Customer";
+"TITLE_SIGN_IN" = " ورود";
+"TITLE_REGISTER" = " ثبت نام";
+"TITLE_FORGET_PASSWORD" = " فراموشی رمز";
+"SEND PASSWORD" = " ارسال رمز";
+
+///// LoginVC
+
+"SIGN IN"="  ورود";
+"BTN_SIGN_IN"="ورود";
+"Email"=" ایمیل";
+"Password"="رمز";
+"PH_EMAIL" = "وارد کردن ایمیل*";
+"PH_PASSWORD" = "وارد کردن رمز*";
+"Forgot Password"="رمز فراموشت شده ؟";
+
+///// RegisterVC
+
+"Register"="  ثبت نام";
+"PH_FIRST_NAME" = "وارد کردن نام*";
+"PH_LAST_NAME" = "وارد کردن نام خانوادگی*";
+"PH_EMAIL" = "وارد کردن ایمیل*";
+"PH_PASSWORD" = "وارد کردن رمز*";
+"PH_CONFIRM_PASSWORD" = "واردک کردن تائید رمز*";
+"PH_PHONE_NUMBER" = "وارد کردن شماره تماس";
+"BTN_REGISTER" = "ثبت نام";
+"SELECT_PHOTO" = "انتخاب تصویر";
+"TAKE_PHOTO" = "گرفتن تصویر";
+"CANCEL" = "انصراف";
+"INFO_EMAIL"="لطفا آدرس ایمیل خود را تأیید کنید، نمیتوانید آن را در آینده تغییر دهید.";
+
+"FIRST NAME*"="وارد کردن نام*";
+"LAST NAME*"="وارد کردن نام خانوادگی*";
+"EMAIL*"="وارد کردن ایمیل*";
+"PASSWORD*"="وارد کردن رمز*";
+"NUMBER*"="NUMBER*";
+"I agree to the terms and conditions"="قبول شرایط";
+"NEXT"="بعدی";
+"Done"="اتمام";
+"Select Country"="انتخاب کشور";
+
+///// TermVC
+
+"Terms & Conditions"="  قوانین و مقررات";
+
+///// OTP
+
+" Jayeem Taxi" = " Jayeem Taxi";
+"SUBMIT" = "ثبت";
+"Enter OTP" = "کد تایید را وارد کنید";
+"Sitbacklrelax_text" = "لطا شکیبایی کنید تا کد تایید شما ارسال شود";
+"Please enter the OTP below" = "لطفا کد تایید زیر را وارد کنید";
+"Resend OTP" = " ارسال مجدد تایید";
+"Enter Search Text" = "وارد کردن متن جستجو";
+"REGISTER" = " ثبت نام";
+
+///// ApplyReferralCodeVC
+
+"Referral Code"=" کد معرف";
+"Enter Referral Code"="کد معرف را وارد کنید";
+"Referral_Msg"="برای دریافت اعتبار رایگان می توانید کد ارجاعی که توسط دوست شما ارائه شده است اضافه کنید. اگر شما یک نفر را ندارید یا نمی خواهید وارد کنید، فقط روی دکمه گذشتن کلیک کنید.";
+"SKIP"="صرف نظر";
+"ADD"="افزودن";
+
+///// PaymentVC
+
+"ADD PAYMENT"="  افزودن کارت";
+"Add Payment" = "افزودن کارت";
+"Adding cards"="در حال افزودن کارت";
+"CREDIT CARD NUMBER" = "شماره کارت بانکی";
+
+///// SliderVC
+
+"Profile"="  پروفایل";
+"History"="  تاریخچه";
+"Payment"="  پرداخت";
+"Schedule"="  زمانبندی";
+"Promotions"="  تخفیف";
+"Referral" = " معرف";
+"Logout"="  خروج";
+"Logout Msg"="واقعا خارج می شوید ؟";
+"Yes"="بله";
+"No"="نه";
+
+///// EastimateFareVC
+
+"Fare Calulator"="  محاسبگر کرایه";
+"Destination Address"="آدرس مقصد";
+"Home Address"="آدرس منزل";
+"Work Address"="آدرس محل کار";
+
+///// ProfileVC
+
+"FIRST NAME"="نام";
+"LAST NAME"="نام خانوادگی";
+"EMAIL"="ایمیل";
+"PHONE"="تلفن";
+"CURRENT PASSWORD"="رمز فعلی";
+"NEW PASSWORD"="رمز جدید";
+"CONFORM PASSWORD"="تائید رمز";
+"UPDATE PROFILE"="بروز رسانی پروفایل";
+"EDIT PROFILE"="ویرایش پروفایل";
+
+///// ReferralCodeVC
+
+"Referral Code"="  کد معرف";
+"Your Referral Code is"="کد معرف شما : ";
+"Your Referral Credit"="اعتبار معرف شما : ";
+"Share With your friend"="اشتراک بگذارید با دوستانتان";
+"My Referral code is"="کد معرف من است ";
+"Share" = "اشتراک";
+
+///// HistoryVC
+
+"Invoice"="فاکتور";
+"BASE PRICE"="کرایه پایه";
+"DISTANCE COST"="کرایه مسافت";
+"TIME COST" = "کرایه زمان";
+"PROMO BONUS" = "جایزه تخفیف";
+"REFERRAL BONUS" = "جایزه معرف";
+"per mile" = "برای کیلومتر";
+"per mins" = "برای دقیقه";
+"Total Due" = "مجموع بدهی";
+"Close"="بستن";
+
+///// FeedBackVC
+
+"Feedback"="  بازخورد";
+"CONFIRM"="تائید";
+"COMMENT"="مطلب";
+"Submit"="ثبت";
+"PLEASE_RATE"="لطفا به راننده امتیاز دهید";
+"Waiting_Cost"="انتظار می رود هزینه";
+
+///// PickUpVC
+
+"PICK ME UP"="الان رزرو کن";
+"RIDE_NOW" = "الان حمل کن";
+"RIDE_LATER" = "حمل بعدا";
+"GET FARE ESTIMATE"="کرایه تقریبی";
+"MIN FARE"="حداقل کرایه";
+"ETA"="زمان تقریبی رسیدن به مبداء";
+"MAX SIZE"="حداکثر اندازه";
+"Select Your Payment Type"="انتخاب نحوه پرداخت";
+"Request"="درخواست حمل";
+"SELECT SERVICE YOU NEED"="انتخاب نوع کشنده";
+"SEARCH"="جسجتو";
+"REQUESTING"="اتصال با نزدیکترین راننده";
+"RATE CARD"="کارت امتیاز";
+"Base Price :"="کرایه پایه : ";
+"Distance Cost :"="کرایه مسافت (هر کیلومتر) :";
+"Time Cost :"="کرایه زمان (هر ساعت) : ";
+"Rate_card_note"="نرخ های فرودگاه ممکن است متفاوت باشد. هزینه اتهامات ممکن است اعمال شود.";
+"Home Address" = " آدرس منزل";
+"Destination Address" = " آدرس مقصد";
+"This_is_justET" = " این فقط تخمین است کرایه های واقعی ممکن است کمی بر اساس ترافیک تعقیر کند";
+"Persons" = " اشخاص";
+"Note" = "توجه: زمان برنامه باید بیش از 30 دقیقه از زمان فعلی شما باشد.";
+"Please choose Date" = "انتخاب تاریخ";
+"Please choose Time" = "انتخاب زمان";
+"Work Address" = "آدرس محل کار";
+"Time_Greater" = "زمان باید بیشتر از 30 دقیقه باشد";
+
+///// ProviderDetailsVC
+
+"Min"="دقیقه";
+"CALL"="تماس";
+"DRIVER ACCEPTED THE JOB"="راننده درخواست را قبول کرد";
+"DRIVER HAS ARRIVED AT YOUR PLACE"="راننده به مبداء رسید";
+"YOUR TRIP HAS BEEN STARTED"="حمل شما آغاز شد";
+"DRIVER HAS STARTED TOWARDS YOU"="راننده به سمت مبداء حرکت کرد";
+"YOUR TRIP IS COMPLETED"="کالا تخلیه شد";
+"DRIVER ACCEPTED THE JOB"="راننده درخواست را قبول کرد";
+"Promo Code"="کد تخفیف";
+"Enter Promo Code"="کد تخفیف را وارد کنید";
+"APPLY"="تائید";
+"Card"="کارت";
+"Cash"="پول";
+"Please Promo"="لطفا کد تخفیف را وارد کنید.";
+"CANCEL_REQUEST"="آیا مطمئن هستید که درخواست لغو درخواست را ندارید؟";
+
+//Settings
+
+"Settings"=" تنظیمات";
+"Select_language"="لطفا درخواست را دوباره شروع کنید تا تغییرات اعمال شود";
+"Alert"="هشدار";
+"Wallet"="کیف پول";
+
+//Wallet
+
+"Success" = "موفقیت";
+"Amount_Added" = "مقدار با موفقیت به کیف پول اضافه شد" ;
+"Please_Amount" = "لطفا مبلغ را وارد کنید";
+
+"RIDE" = "سوار شدن";
+"Cancel_Ride" = "لغو سوار شدن";
+"Ride_Cancelled" = "سوار شدن لغو شد";
+"Wait" = "صبر کن";
+"Pause" = "PAUSE";
+"Pick_Date" = "انتخاب تاریخ";
+"Pick_Time" = "زمان را انتخاب کنید";
+"Add_Money" = "اضافه کردن پول";
+
+"Select_Journey" = "جزئیات سفر خود را انتخاب کنید";
+"ADD_TIPS" = "راهنمایی های اضافه";
+"Enter_Tips" = "مقدار نکات را وارد کنید";
+"Please_Pickup" = "لطفا موقعیت مکانی را وارد کنید";
+"Please_Drop" = "لطفا مکان قطره را وارد کنید";
+"Schedule_Success" = "سوار شدن شما برنامه ریزی شده با موفقیت انجام شده است";
+"Destination" = "آدرس مقصد";
+"Please_Comment" = "لطفا قبل از به اشتراک گذاشتن مطالب را تایپ کنید";
+"No_Email" = "این ایمیل ثبت نشده است";
+
+"Today" = "امروز";
+"Yesterday" = "دیروز";
+
+
+
+
+//"Select_language"="Please Restart the application for the changes to take effect";
+//"Alert"="Alert";
+//"Wallet"="Wallet";
+//"Waiting_Cost"="WAITING COST";
+//
+////Wallet
+//"Success" = "Success";
+//"Amount_Added" = "The amount has been successfully added to your Wallet" ;
+//"Please_Amount" = "Please Enter the Amount";
+//
+//"RIDE" = "RIDE";
+//"Cancel_Ride" = "Cancel Ride";
+//"Ride_Cancelled" = "Ride Cancelled";
+//"Wait" = "WAIT";
+//"Pause" = "PAUSE";
+//"Pick_Date" = "Select Date";
+//"Pick_Time" = "Select Time";
+//"Add_Money" = "ADD MONEY";
+//
+//"Total Due" = "Total Due";
+//" Jayeem Taxi" = " Jayeem Taxi";
+//"Rate_card_note"="Airport rates may differ.Peak time charges may apply.";
+//"Time_Greater" = "Time should be greater than 30 mins";
+

@@ -1,0 +1,303 @@
+/* 
+  LocalizableArabic.strings
+  Jayeentaxi
+
+  Created by Spextrum on 22/05/17.
+  Copyright © 2017 Jigs. All rights reserved.
+*/
+
+//Arabic
+
+
+"APPLICATION NAME"="Jayeentaxi Customer";
+"Name" = "Name";
+"SELECT_PHOTO"="اختيار صورة";
+"TAKE_PHOTO"="التقط صورة";
+"CANCEL"="الغاء الطلب";
+"Cancel"="الغاء الطلب";
+"Currency" = " JOD";
+"OK"="موافق";
+"CAM_NOT_AVAILABLE" = "الكاميرا غير متاحة";
+"PLEASE_FIRST_NAME"="رجاء ادخل الاسم الاول.";
+"PLEASE_LAST_NAME"="رجاء ادخل الاسم الاخير.";
+"PLEASE_EMAIL"="ادخل البريد الالكتروني .";
+"PLEASE_NUMBER"="ادخل رقم الهاتف.";
+"PLEASE_PASSWORD"="ادخل كلمة السر.";
+"PLEASE_PASSWORD_LENGTH"="كلمة السر يجب ان تتكون من 6 حروف على الاقل.";
+"PLEASE_TYPE_CONFIRM_PASSWORD_LENGTH"="رجاء ادخل كلمة السر مرة اخرى.";
+"PASSWORD_MISMATCH"="كلمة السر غير متطابقة ";
+"PLEASE_VALID_EMAIL"="الرجاء ادخال بريد الكتروني فعال.";
+"REGISTER_SUCCESS"="تم التسجيل بنجاح انطلق !";
+"REGISTER_FAIL"="فشل التسجيل الرجاء المحاولة مرة اخرى.";
+"LOGIN_SUCCESS"="اهلا ";
+"LOGIN_FAIL"="فشل تسجيل الدخول اعد المحاولة ..";
+"THING_SUCCESS"="تم اضافة معلوماتك بنجاح.";
+"THING_FAIL"="عملية غير مكتملة الرجاء المحاولة مرة اخرى.";
+"NOT_VALID_LOCATION" = "موقع خاطئ !";
+"ALREADY_LOGIN"="جاري تسجيل الدخول  ..";
+"PLEASE_WAIT"="لحظة ......";
+
+//////////// Loading Titles
+
+"CONTACTING_SERVICE_PROVIDER"="جاري البحث عن اقرب سائق..";
+"LOADING"="لحظات .......";
+"LOGIN"="جاري تسجل الدخول لحسابك ......";//"PLEASE WAIT, WHILE WE LOG YOU IN";
+
+"WAITING_FOR_ADMIN_CONFIRM"="طلبك قيد العمل , سيتم اعلامك فور اتمام العملية , شكراَ :).";
+"REQUESTING"="جاري تنفيذ الطلب";
+"REVIEWING"="جاري مراجعة الطلب ";
+"CANCLEING"="جاري الغاء الطلب";
+"EDITING"="تحديث";
+"PLEASE_WAIT"="لحظة ....";
+"GET_PROVIDER"="جاري البحث عن سائق ";
+
+/////////////// Toast Title
+
+"SUCESS_REFERRAL" = "رمز الحساب";
+"FAILURE_REFERRAL" = "رمز الحساب غير صحيح";
+"RATING"= "شكرا لك ";
+"PASSWORD_SENT"="تم ارسال كلمة المرور الى بريدك المسجل ";
+"ERROR"="اووبس ! يرجى المحاولة مرة اخرى.";
+"SELECT_TYPE" = "رجاء اختر الفئة .";
+"REQUEST_CANCEL" = "تم الغاء الطلب بنجاح .";
+"NO_WALKER" = "لم نتمكن من العثور على سائق قريب منك حاول مرة اخرى";
+"PROFILE_EDIT_SUCESS" = "تم تحديث معلومات حسابك بنجاح شكرا";
+"NO_REFERRAL" = "هذا الحساب لا يملك رمز تسجيل .";
+"SOS_CALL_POLICE" = "هل انت متاكد انك تريد الاتصال ب 911";
+"SOS_CALL_AMBULANCE" = "هل انت متاكد انك تريد الاتصال ب 108";
+"SOS_CALL_FIRESTATION" = "هل انت متاكد انك تريد الاتصال ب 101";
+"Police" = " الشرطة ";
+"Ambulance" = "سيارة الاسعاف";
+"Fire Station" = "محطة الاطفاء";
+"CLICK_SOS" = "لقد ضغطت على زر الطوارئ , الرجاء اختيار من بمن تود الاتصال ...";
+"Back" = "رجوع";
+"Network Status"="حالة الشبكة";
+"NO_INTERNET"="الشبكة ضعيفة يرجى المحاولة مرة اخرى.";
+"NO_VEHICLE_AVAILABLE" = "نعتذر لا يوجد سيارات متوفرة في هذه اللحظة  ";
+"Sorry!"="معذرة!";
+
+///////////  RegisterVC & Profile
+
+"This field is not editable."="لا يمكن تعديل هذا الخيار.";
+"NOT_MATCH_RETYPE"="الرمز المدخل لا يتوافق مع الرمز الجديد !.";
+"Registering"="جاري التسجيل...";
+
+///// Title
+
+"TITLE_APP_NAME" = "Jayeentaxi Customer";
+"TITLE_SIGN_IN" = " دخول";
+"TITLE_REGISTER" = "انشاء حساب";
+"TITLE_FORGET_PASSWORD" = " نسيت الرقم السري ؟";
+"SEND PASSWORD" = " ارسال الرقم السري ";
+
+///// LoginVC
+
+"SIGN IN"="  دخول";
+"BTN_SIGN_IN"="دخول";
+"Email"="  البريد الالكتروني ";
+"Emailp"="البريد الإلكتروني / الهاتف";
+"Password"="الرقم السري";
+"PH_EMAIL" = "ادخل البريد الالكتروني *";
+"PH_PASSWORD" = "ادخل الرقم السري*";
+"Forgot Password"="نسيت الرقم السري ؟";
+
+///// RegisterVC
+
+"REGISTER"="  انشاء حساب";
+"PH_FIRST_NAME" = " الاسم الاول*";
+"PH_LAST_NAME" = "الاسم الاخير*";
+"PH_EMAIL" = "البريد الالكتروني*";
+"PH_PASSWORD" = " الرقم السري *";
+"PH_CONFIRM_PASSWORD" = "تاكيد الرقم السري*";
+"PH_PHONE_NUMBER" = "رقم الهاتف";
+"BTN_REGISTER" = "انشاء حساب ";
+"SELECT_PHOTO" = "اختر صورة";
+"TAKE_PHOTO" = "التقط صورة";
+"CANCEL" = "الغاء";
+"INFO_EMAIL"="الرجاء تاكيد البريد الالكتروني , لن تتمكن من تعديله في المستقبل ..";
+
+"FIRST NAME*"="FIRST NAME*";
+"LAST NAME*"="LAST NAME*";
+"EMAIL*"="EMAIL*";
+"PASSWORD*"="PASSWORD*";
+"NUMBER*"="NUMBER*";
+"I agree to the terms and conditions"="أوافق على الشروط و الاحكام ";
+"NEXT"="التالي";
+"Done"="تم ";
+"Select Country"="اختر الدولة";
+
+///// TermVC
+
+"Terms & Conditions"="  الشروط و الاحكام";
+
+///// OTP
+
+" Jayeem Taxi" = " Jayeem Taxi";
+"SUBMIT" = "موافق";
+"Enter OTP" = "ادخل رمز التأكيد";
+"Sitbacklrelax_text" = "اجلس و استرخي ! جاري تأكيد رقم هاتفك ....";
+"Please enter the OTP below" = "ادخل الرمز في الاسفل ";
+"Resend OTP" = " ارسل الرمز مرة اخرى";
+"Enter Search Text" = "ادخل كلمة البحث";
+//"REGISTER" = " تسجيل";
+
+///// ApplyReferralCodeVC
+
+"Referral Code"=" رمز المكافأة";
+"Enter Referral Code"="ادخل رمز المكافأة";
+"Referral_Msg"="ادخل رمز المكافاة للحصول على رصيد مجاني !! إذا كنت لاتملك رمز او لاتود استخدامه فقط اضغط تخطي , شكراَ .";
+"SKIP"="تخطي";
+"ADD"="اضف";
+
+///// PaymentVC
+
+"ADD PAYMENT"="  اضف رصيد";
+"Add Payment" = "اضف رصيد";
+"Adding cards"="جاري اضافة البطاقة ....";
+"CREDIT CARD NUMBER" = "رقم البطاقة ";
+
+///// SliderVC
+
+"Profile"="  الحساب  ";
+"History"="  تاريخ الرحل";
+"Payment"="  الدفع";
+"Schedule"="  الحجز اللاحق";
+"Promotions"="  عروض";
+"Referral" = " رمز الحساب";
+"Logout"="  تسجيل الخروج";
+"Logout Msg"="تاكيد تسجيل الخروج ؟";
+"Yes"="نعم";
+"No"="لا";
+
+///// EastimateFareVC
+
+"Fare Calulator"="   حساب الاجرة ";
+"Destination Address"="عنوان الوجهة";
+"Home Address"="عنوان المنزل";
+"Work Address"="عنوان العمل";
+
+///// ProfileVC
+
+"FIRST NAME"="الاسم الاول";
+"LAST NAME"="الاسم الاخير";
+"EMAIL"="البريد الالكتروني";
+"PHONE"="رقم الهاتف";
+"CURRENT PASSWORD"="الرقم السري الحالي";
+"NEW PASSWORD"="الرقم السري الجديد";
+"CONFORM PASSWORD"="تأكيد الرقم السري";
+"UPDATE PROFILE"="تحديث معلومات الحساب ";
+"EDIT PROFILE"="تعديل الحساب ";
+
+///// ReferralCodeVC
+
+"Referral Code"="  رمز الحساب";
+"Your Referral Code is"="رمز المكافأة الخاص بك هو ";
+"Your Referral Credit"="رصيد المكافأة الخاص بك";
+"Share With your friend"="شارك مع اصدقائك";
+"My Referral code is"="رمز المكافاة الخاص بي هو ";
+"Share" = "شارك ";
+
+///// HistoryVC
+
+"Invoice"="فاتورة ";
+"BASE PRICE"="السعر الأساسي";
+"DISTANCE COST"="التكلفة / كيلومتر";
+"TIME COST" = "السعر / مدة";
+"PROMO BONUS" = "رصيد اضافي ";
+"REFERRAL BONUS" = "رصيد مكافأة";
+"per mile" = "كل كيلوميتر";
+"per mins" = "كل دقيقة";
+"Total Due" = "المجموع";
+"Close"="اغلق";
+
+///// FeedBackVC
+
+"Feedback"="  تعليقات ";
+"CONFIRM"="موافق";
+"COMMENT"="تعليق ";
+"Submit"="ارسل";
+"PLEASE_RATE"="رجاء قيم السائق لنتمكن من الوصل في الخدمة للاعلى مستوى.";
+"Waiting_Cost"="تكلفة الانتظار";
+
+///// PickUpVC
+
+"PICK ME UP"="احجز الان";
+"RIDE_NOW" = "اطلب الان";
+"RIDE_LATER" = "اطلب لاحقا";
+"GET FARE ESTIMATE"="تقدير المبلغ ";
+"MIN FARE"="اقل طلب";
+"ETA"="الوقت المقدر للوصول";
+"MAX SIZE"="اقصى عدد للركاب";
+"Select Your Payment Type"="اختار طريقة الدفع";
+"Request"="طلب";
+"SELECT SERVICE YOU NEED"="حدد نوع السيارة";
+"SEARCH"="بحث";
+"REQUESTING"="جاري البحث عن اقرب سائق...";
+"RATE CARD"="نموذج تقيم";
+"Base Price :"="التعرفة الابتدائية :";
+"Distance Cost :"="التعرفة / كيلومتر :";
+"Time Cost :"="التعرفة /  دقيقة الانتظار :";
+"Rate_card_note"="قد تختلف الأسعار في المطار. قد يتم تطبيق رسوم وقت محددة.";
+"Home Address" = " عنوان المنزل";
+"Destination Address" = " الوجهة المختارة";
+"This_is_justET" = " تنبيه: هذا السعر تقريبي !! السعر النهائي مرتبط بحالة الطريق و الخصومات ان وجدت :).";
+"Persons" = " شخص";
+"Note" = "ملاحظة : يجب ان يكون الحجز السابق بعد 30 دقيقة من وقتك الحالي ,شكرا :).";
+"Please choose Date" = "اختيار التاريخ";
+"Please choose Time" = "اختيار الوقت";
+"Work Address" = "عنوان العمل";
+"Time_Greater" = "يجب أن يكون الوقت أكبر من 30 دقيقة";
+
+///// ProviderDetailsVC
+
+"Min"="دقيقة";
+"CALL"="اتصال";
+"DRIVER ACCEPTED THE JOB"="تم قبول الطلب";
+"DRIVER HAS ARRIVED AT YOUR PLACE"="لفد وصل السائق لمكانك";
+"YOUR TRIP HAS BEEN STARTED"="بدأت الرحلة , رحلة سعيدة :)";
+"DRIVER HAS STARTED TOWARDS YOU"="السائق في طريقه اليك";
+"YOUR TRIP IS COMPLETED"="تم اكمال الرحلة  :)";
+"DRIVER ACCEPTED THE JOB"="تم قبول الطلب";
+"Promo Code"="برومو كود";
+"Enter Promo Code"="ادخل البروموكود";
+"APPLY"="اتم العملية";
+"Card"="البطاقة  الائتمانية";
+"Cash"="نقداَ";
+"Please Promo"="ادخل البروموكود من فضلك.";
+"CANCEL_REQUEST"="هل انت متأكد من الغاء العملية";
+
+//Settings
+
+"Settings"="  الاعدادات";
+"Select_language"="الرجاء إعادة تشغيل التطبيق حتى تصبح التغييرات نافذة المفعول";
+"Alert"="محزر";
+"Wallet"="محفظة نقود";
+
+//Wallet
+
+"Success" = "نجاح";
+"Amount_Added" = "تمت إضافة المبلغ بنجاح في محفظتك" ;
+"Please_Amount" = "الرجاء إدخال المبلغ";
+
+"RIDE" = "اركب";
+"Cancel_Ride" = "إلغاء ركوب";
+"Ride_Cancel" = "تم إلغاء ركوب";
+"Wait" = "انتظر";
+"Pause" = "وقفة";
+"Pick_Date" = "حدد تاريخا";
+"Pick_Time" = "حدد الوقت";
+"Add_Money" = "إضافة المال";
+
+"Select_Journey" = "حدد تفاصيل رحلتك";
+"ADD_TIPS" = "إضافة تيبس";
+"Enter_Tips" = "أدخل مبلغ النصائح";
+"Please_Pickup" = "الرجاء إدخال موقع بيك اب";
+"Please_Drop" = "الرجاء إدخال موقع الإفلات";
+"Schedule_Success" = "تم جدولة رحلتك بنجاح";
+"Destination" = "عنوان الوجهة";
+"Please_Comment" = "يرجى كتابة التعليقات قبل المشاركة";
+"No_Email" = "هذا البريد الإلكتروني غير مسجل";
+
+"Today" = "اليوم";
+"Yesterday" = "في الامس";
+

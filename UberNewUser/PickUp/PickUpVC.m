@@ -324,7 +324,7 @@
     
     
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    [manager POST:@"http://productstaging.in/jayeentaxi/public/user/eta_calculation" parameters:dictParam progress:nil success:^(NSURLSessionTask *task, id responseObject)
+    [manager POST:@"http://notanotherfruit.com/jayeentaxi/public/user/eta_calculation" parameters:dictParam progress:nil success:^(NSURLSessionTask *task, id responseObject)
      {
          [APPDELEGATE hideLoadingView];
          NSLog(@"New ETA Calculation Response: %@", responseObject);
@@ -1681,7 +1681,7 @@
                     
                     
                     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-                    [manager POST:@"http://productstaging.in/jayeentaxi/public/dog/addschedule" parameters:dictParam progress:nil success:^(NSURLSessionTask *task, id responseObject)
+                    [manager POST:@"http://notanotherfruit.com/jayeentaxi/public/dog/addschedule" parameters:dictParam progress:nil success:^(NSURLSessionTask *task, id responseObject)
                     {
                         [[AppDelegate sharedAppDelegate]hideLoadingView];
                         [self.viewForRideLater setHidden:YES];
@@ -1988,6 +1988,8 @@
         NSMutableDictionary *dictParam=[[NSMutableDictionary alloc]init];
         [dictParam setValue:strForLatitude forKey:@"latitude"];
         [dictParam setValue:strForLongitude forKey:@"longitude"];
+        [dictParam setValue:strForUserId forKey:PARAM_ID];
+        [dictParam setValue:strForUserToken forKey:PARAM_TOKEN];
         
         AFNHelper *afn=[[AFNHelper alloc]initWithRequestMethod:GET_METHOD];
         [afn getDataFromPath:FILE_APPLICATION_TYPE withParamData:dictParam withBlock:^(id response, NSError *error)

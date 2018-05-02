@@ -68,7 +68,7 @@
         
         AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
         
-        [manager POST:@"http://productstaging.in/jayeentaxi/public/dog/getUserSchedules" parameters:dictParam progress:nil success:^(NSURLSessionTask *task, id responseObject) {
+        [manager POST:@"http://notanotherfruit.com/jayeentaxi/public/dog/getUserSchedules" parameters:dictParam progress:nil success:^(NSURLSessionTask *task, id responseObject) {
            
             NSDictionary *set = responseObject;
             NSLog(@"JSON: %@", responseObject);
@@ -194,7 +194,7 @@
     NSMutableDictionary *dictParam=[[NSMutableDictionary alloc]init];
     [dictParam setValue:[NSString stringWithFormat:@"%ld",(long)[sender tag]] forKey:@"id"];
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    [manager POST:@"http://productstaging.in/jayeentaxi/public/dog/cancelschedule" parameters:dictParam progress:nil success:^(NSURLSessionTask *task, id responseObject) {
+    [manager POST:@"http://notanotherfruit.com/jayeentaxi/public/dog/cancelschedule" parameters:dictParam progress:nil success:^(NSURLSessionTask *task, id responseObject) {
         NSLog(@"JSON: %@", responseObject);
         NSDictionary *set = responseObject;
         CancelSchedule_parsing* tester = [RMMapper objectWithClass:[CancelSchedule_parsing class] fromDictionary:set];

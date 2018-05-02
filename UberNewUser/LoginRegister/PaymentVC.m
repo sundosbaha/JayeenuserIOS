@@ -98,7 +98,7 @@
 -(void)getToken
 {
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    [manager GET:@"http://productstaging.in/jayeentaxi/public/token_braintree" parameters:nil progress:nil success:^(NSURLSessionTask *task, id responseObject) {
+    [manager GET:@"http://notanotherfruit.com/jayeentaxi/public/token_braintree" parameters:nil progress:nil success:^(NSURLSessionTask *task, id responseObject) {
         NSLog(@"JSON: %@", responseObject);
         NSDictionary *responseDict = responseObject;
         NSLog(@"responseDict: %@", responseDict);
@@ -200,7 +200,7 @@
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
     manager.responseSerializer.acceptableContentTypes = [manager.responseSerializer.acceptableContentTypes setByAddingObject:@"text/html"];
     NSDictionary *parameters = @{@"payment_token":nonceStr,@"last_four":endingStr,@"token":strForUserToken,@"id":strForUserId,@"card_type":@""};
-    NSString *fullUrl = [NSString stringWithFormat:@"http://productstaging.in/jayeentaxi/public/user/addcardtoken"];
+    NSString *fullUrl = [NSString stringWithFormat:@"http://notanotherfruit.com/jayeentaxi/public/user/addcardtoken"];
     [manager POST:fullUrl parameters:parameters progress:nil success:^(NSURLSessionTask *task, id responseObject) {
         
         [[AppDelegate sharedAppDelegate]hideLoadingView];
@@ -253,7 +253,7 @@
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
     manager.responseSerializer.acceptableContentTypes = [manager.responseSerializer.acceptableContentTypes setByAddingObject:@"text/html"];
     NSDictionary *parameters = @{@"payment_method_nonce":paymentMethodNonce,@"amount":@"100",@"tripid":@"53"};
-    NSString *fullUrl = [NSString stringWithFormat:@"http://productstaging.in/jayeentaxi/public/user/addcardtoken"];
+    NSString *fullUrl = [NSString stringWithFormat:@"http://notanotherfruit.com/jayeentaxi/public/user/addcardtoken"];
     [manager POST:fullUrl parameters:parameters progress:nil success:^(NSURLSessionTask *task, id responseObject) {
         
         [[AppDelegate sharedAppDelegate]hideLoadingView];

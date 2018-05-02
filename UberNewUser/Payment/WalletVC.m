@@ -89,7 +89,7 @@
     [dictParam setObject:strForUserToken forKey:@"token"];
     
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    [manager POST:@"http://productstaging.in/jayeentaxi/public/user/get_amt" parameters:dictParam progress:nil success:^(NSURLSessionTask *task, id responseObject)
+    [manager POST:@"http://notanotherfruit.com/jayeentaxi/public/user/get_amt" parameters:dictParam progress:nil success:^(NSURLSessionTask *task, id responseObject)
     {
         [APPDELEGATE showLoadingWithTitle:@""];
         NSLog(@"Available Amount in Wallet: %@", responseObject);
@@ -165,10 +165,7 @@
         [self presentViewController:alert animated:YES completion:nil];
     }
     [APPDELEGATE hideLoadingView];
-    
 }
-
-
 
 -(void)AddMoneyToWAllet
 {
@@ -182,7 +179,7 @@
     [dictParam setObject:[NSNumber numberWithInt:[SelectedCardID integerValue]] forKey:@"card_id"];
     
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    [manager POST:@"http://productstaging.in/jayeentaxi/public/user/add_wallet" parameters:dictParam progress:nil success:^(NSURLSessionTask *task, id responseObject)
+    [manager POST:@"http://notanotherfruit.com/jayeentaxi/public/user/add_wallet" parameters:dictParam progress:nil success:^(NSURLSessionTask *task, id responseObject)
      {
          
          [APPDELEGATE showLoadingWithTitle:@""];

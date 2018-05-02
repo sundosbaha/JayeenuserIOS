@@ -6,12 +6,12 @@
 //#define Google_Map_Key @"AIzaSyC3-0ZsCBKFQvm1pjZOup9b2-4PtL_4P4w"
 //#define GOOGLE_KEY_NEW @"AIzaSyCLDSZl4y2CfTWwPzJ933jS2X5jOpDFkEI"  http://notanotherfruit.com/jayeentaxi/public/
 
-#define RIDE_LATER_URL @"http://productstaging.in/jayeentaxi/public/"
-#define API_URL @"http://productstaging.in/jayeentaxi/public/user/"
-#define SERVICE_URL @"http://productstaging.in/jayeentaxi/public/"
+#define RIDE_LATER_URL @"http://notanotherfruit.com/jayeentaxi/public/"
+#define API_URL @"http://notanotherfruit.com/jayeentaxi/public/user/"
+#define SERVICE_URL @"http://notanotherfruit.com/jayeentaxi/public/"
 
 #define Address_URL @"https://maps.googleapis.com/maps/api/geocode/json?"
-#define PRIVACY_URL @"http://productstaging.in/jayeentaxi/public/user/termsncondition"
+#define PRIVACY_URL @"http://notanotherfruit.com/jayeentaxi/public/user/termsncondition"
 
 #define Google_Map_API_Key @"AIzaSyBO82TdvmP2YQJKyzKTQWJeNH24_rJjckw"
 #define Google_Map_Server_Key @"AIzaSyD7M9F6cefHkGJkdnc-zSbmPzfee8mOT54"
